@@ -181,7 +181,7 @@
           <OutArgument x:TypeArguments="x:String">[strInputHash]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[strClientID+"-"+strClientCountry]</InArgument>
+          <InArgument x:TypeArguments="x:String">[strClientID+"-"+strClientName+"-"+strClientCountry]</InArgument>
         </Assign.Value>
       </Assign>
       <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser SHA1Online" sap:VirtualizedContainerService.HintSize="434,654" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="f522c540cc187fb1c0fe241d59e48d86" Selector="&lt;html app='chrome.exe' title='SHA1 online' /&gt;">
